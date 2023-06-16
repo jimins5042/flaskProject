@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>테스트용 임시 페이지</title>
+  </head>
+  <body>
+    <h1>테스트용 임시 페이지</h1>
+    <form action="/predict" method="POST">
+      <label for="날씨">날씨:</label>
+      <input type="text" id="input1" name="input1"><br><br>
+
+      <label for="나이">나이:</label>
+      <input type="text" id="input2" name="input2"><br><br>
+
+      <label for="시간대">시간대:</label>
+      <input type="text" id="input3" name="input3"><br><br>
+
+      <input type="submit" value="Save">
+    </form>
+
+    <br>
+
+    <a href="/insert"><button>CSV파일 DB 삽입</button></a>
+    <a href="/select"><button>DB에서 데이터셋 조회</button></a>
+  <a href="/preprocess"><button>훈련/테스트 데이터 분리</button></a>
+  </body>
+</html>
